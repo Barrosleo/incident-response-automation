@@ -1,0 +1,15 @@
+{
+  "name": "incident-response-automation",
+  "version": "1.0.0",
+  "description": "Automates incident response via predefined playbooks, notifications, logging, and reporting.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1"
+  }
+}
